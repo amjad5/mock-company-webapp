@@ -1,5 +1,7 @@
 # Mock Company E-Commerce Application
 
+[![CI](https://github.com/amjad5/mock-company-webapp/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/amjad5/mock-company-webapp/actions/workflows/main.yml)
+
 This is the e-commerce application for Mock Company.  It's built using the following languages/frameworks
 
 | Language/Framework       | Usage | Source Location |
