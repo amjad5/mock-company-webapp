@@ -22,5 +22,6 @@ jobs:
     - uses: actions/setup-node@v1
       with: 
         node-version : 14.18.2
+    - run: npm ci
     - name: jenkinsfile-runner-prepackaged
       uses: jenkinsci/jenkinsfile-runner-github-actions/jenkinsfile-runner-prepackaged@master
