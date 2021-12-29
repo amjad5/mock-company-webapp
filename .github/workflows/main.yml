@@ -4,5 +4,6 @@ jobs:
   jenkinsfile-runner-prepackaged:
     runs-on: ubuntu-latest
     steps:
-    - name: jenkinsfile-runner-prepackaged
-      uses: jenkinsci/jenkinsfile-runner-github-actions/jenkinsfile-runner-prepackaged@master
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+    - uses: jenkinsci/jenkinsfile-runner-github-actions/jenkinsfile-runner-prepackaged@master
